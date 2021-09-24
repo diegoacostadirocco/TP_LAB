@@ -1,4 +1,5 @@
 
+
 float Sumar(float num1, float num2) {
 
 	float resultado;
@@ -6,7 +7,6 @@ float Sumar(float num1, float num2) {
 
 	return resultado;
 }
-
 float Restar(float num1, float num2) {
 
 	float resultado;
@@ -14,7 +14,6 @@ float Restar(float num1, float num2) {
 
 	return resultado;
 }
-
 float Multiplicar(float num1, float num2) {
 
 	float resultado;
@@ -23,7 +22,6 @@ float Multiplicar(float num1, float num2) {
 	return resultado;
 
 }
-
 int Dividir(float *resultado, float num1, float num2) {
 
 	float result;
@@ -38,11 +36,10 @@ int Dividir(float *resultado, float num1, float num2) {
 	}
 	return retorno;
 }
-
-int Factorear(int *resultado, double num) {
+int Factorear(int *resultado, float num) {
 
 	int validarNumero;
-	double auxFact;
+	int auxFact;
 	int validarSigno;
 	int retorno;
 	int i;

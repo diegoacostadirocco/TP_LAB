@@ -5,16 +5,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/// \fn IsFloat(float)
+/// \fn IsFloat
 /// \brief Pide un flotante, y lo verifica
 /// return: true = 0, false = 1
 /// \param flotante
-/// \return
-/// \fn NotFloat(float)
+/// \return int
+/// \fn NotFloat
 /// \brief Pide un flotante, verifica si es negativo.
 /// return: true = 0, false = 1
 /// \param flotante
-/// \return
+/// \return int
 
 int IsFloat(float flotante);
 int NumeroNegativo(float flotante);

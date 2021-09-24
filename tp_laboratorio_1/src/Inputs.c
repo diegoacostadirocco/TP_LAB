@@ -1,9 +1,3 @@
-/*
- * Inputs.c
- *
- *  Created on: Sep 24, 2021
- *      Author: diego
- */
 
 float IngresarNumero(char mensaje[]) {
 

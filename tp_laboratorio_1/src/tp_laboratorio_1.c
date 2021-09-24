@@ -1,4 +1,8 @@
-
+//====================================================================
+//						DIEGO ACOSTA DIV E
+//						TP_LABORATORIO_1
+//						CALCULADORA
+//====================================================================
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -31,23 +35,26 @@ int main(void) {
 	flagA = 0;
 	flagB = 0;
 
+		printf("=============== LA CALCULADORA =====================\n");
+		printf("\t __________\n\t| ________ |\n\t||12345678||\n\t|__________|\n\t|[M|#|C][-]|\n\t|[7|8|9][+]|\n\t|[4|5|6][x]|\n\t|[1|2|3][/]|\n\t|[.|O|:][=]|\n");
 
-		printf(" __________\n| ________ |\n||12345678||\n|__________|\n|[M|#|C][-]|\n|[7|8|9][+]|\n|[4|5|6][x]|\n|[1|2|3][%] |\n|[.|O|:][=]|\n");
+		printf("Para utilizar la calculadora elija una de las siguientes opciones: \n");
 	do {
 		printf("\n1. Ingresar 1er numero\n");
 		printf("2. Ingresar 2do numero\n");
 		printf("3. Calcular todas las operaciones\n");
 		printf("4. Informar resultados\n");
 		printf("5. Salir\n");
+		printf("opcion: ");
 		scanf("%d", &opcion);
 
 		switch (opcion) {
 		case 1:
-			numA = IngresarNumero("Ingrese un numero\n");
+			numA = IngresarNumero("Ingrese un numero: ");
 			flagA = 1;
 			break;
 		case 2:
-			numB = IngresarNumero("Ingrese otro numero\n");
+			numB = IngresarNumero("Ingrese otro numero: ");
 			flagB = 1;
 			break;
 		case 3:
